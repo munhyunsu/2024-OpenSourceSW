@@ -6,4 +6,6 @@ while True:
     if x < 10:
         print('x가 10보다 작아졌으므로 종료합니다.')
         break
-    
+    else:
+        print('x가 아직 10보다 크므로 계속합니다.')
+

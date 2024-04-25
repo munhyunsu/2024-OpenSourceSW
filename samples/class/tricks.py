@@ -1,5 +1,5 @@
 class Dog:
-    kind = 'border collie'
+    kind = '보더 콜리'
 
     def __init__(self, name):
         self.name = name
@@ -11,11 +11,7 @@ class Dog:
 
 a = Dog('하나')
 b = Dog('둘')
-print(id(a.kind))
-print(id(b.kind))
-a.kind = '4'
-print(id(a.kind))
-print(id(b.kind))
+
 a.add_trick('앉아!')
 a.add_trick('손!')
 b.add_trick('물어와!')

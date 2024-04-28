@@ -1,0 +1,10 @@
+l = list()
+l.append(2)
+l.append('String')
+l.append(10.44)
+l.remove('String')
+l.pop()
+l.append(2)
+l.append('List')
+print(l)
+

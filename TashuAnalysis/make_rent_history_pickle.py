@@ -19,7 +19,7 @@ df = df.astype({'대여스테이션': 'int16', '대여일시': 'str',
                 '반납스테이션': 'int16', '반납일시': 'str',
                 '이동거리': 'float32', '회원구분': 'int8'})
 
-df['대여일시'] = df['대여일시'].replace('\.\d+', '', regex=True)
-df['반납일시'] = df['반납일시'].replace('\.\d+', '', regex=True)
+df['대여일시'] = df['대여일시'].replace(r'\.\d+', '', regex=True)
+df['반납일시'] = df['반납일시'].replace(r'\.\d+', '', regex=True)
 
 df.to_pickle('tashu_dataset-rental_history.pkl')

@@ -1,3 +1,4 @@
 *.pkl
+rawdata/
 .idea
 .ipynb_checkpoints
